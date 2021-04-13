@@ -7,7 +7,8 @@ import {
   ScopedComponentStyles,
   ExtendingComponentStyles,
   MovingStylesToThemes,
-  OtherStylingOptions
+  OtherStylingOptions,
+  Demo
 } from '../Chapter20Style';
 
 storiesOf('Chapter 20 Styles', module)
@@ -17,4 +18,6 @@ storiesOf('Chapter 20 Styles', module)
     <ExtendingComponentStyles />
   ))
   .add('Moving Styles To Themes', () => <MovingStylesToThemes />)
-  .add('Other Styling Options', () => <OtherStylingOptions />);
+  .add('Other Styling Options', () => <OtherStylingOptions />)
+
+  .add('Demo', () => <Demo />);

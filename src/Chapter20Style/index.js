@@ -13,3 +13,6 @@ export {
 export {
   default as OtherStylingOptions
 } from './OtherStylingOptions';
+export {
+  default as Demo
+} from './Demo';
